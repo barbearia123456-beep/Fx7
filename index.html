@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0e1a24"><title>ATLAS FOREX</title>
+<link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="icon-192.png"><link rel="apple-touch-icon" href="icon-192.png">
+<link rel="stylesheet" href="styles.css">
+<script src="lightweight-charts.js"></script></head>
+<body><header><b class="logo">ATLAS<span>FOREX</span></b><span id="status" class="pill off">Sem servidor</span>
+<button id="theme" aria-label="Alternar tema">◐</button></header>
+<main id="view"><p class="note" style="padding:14px">Carregando… Se esta mensagem não sumir, algum arquivo não foi enviado ao GitHub (app.js, styles.css ou lightweight-charts.js).</p></main>
+<nav id="nav"></nav>
+<script src="app.js"></script>
+<script>addEventListener('error',function(e){var v=document.getElementById('view');if(v&&v.textContent.indexOf('Carregando')===0)v.innerHTML='<p class="note" style="padding:14px">Erro: '+(e.message||'arquivo não carregou')+'</p>'},true)</script>
+</body></html>
